@@ -1,12 +1,12 @@
 # Bank Customer Churn Prediction
 
-## 🧠 Project Overview
+## Project Overview
 
 This project aims to predict customer churn for a European multinational bank operating in France, Germany, and Spain. Using machine learning, we analyze which customers are most likely to leave the bank, allowing the organization to take proactive steps to retain them. The dataset includes demographic, financial, and behavioral attributes of customers.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains the following key features:
 
@@ -17,13 +17,13 @@ The dataset contains the following key features:
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 
 **"Can we predict whether a customer will churn based on their profile and activity with the bank?"**
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 ### Exploratory Data Analysis (EDA)
 
@@ -51,7 +51,7 @@ Trained and evaluated the following classifiers:
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Model     | Recall (Test) | F1 Score (Test) | AUROC (Test) | Precision (Test) |
 |-----------|---------------|-----------------|---------------|------------------|
@@ -65,7 +65,7 @@ Trained and evaluated the following classifiers:
 
 ---
 
-## 🔑 Key Insights
+## Key Insights
 
 - All models achieved high scores, with **Logistic Regression**, **Naive Bayes**, and **AdaBoost** yielding perfect recall on the test set.
 - **XGBoost** and **Random Forest** demonstrated excellent overall balance in precision, recall, and F1-score.
@@ -74,13 +74,13 @@ Trained and evaluated the following classifiers:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 The project successfully demonstrates that machine learning can accurately predict bank customer churn. With models like **Random Forest** and **XGBoost**, banks can identify at-risk customers with high precision and recall, enabling targeted retention strategies and improved customer satisfaction.
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 - Fine-tune model hyperparameters for better recall–precision balance
 - Deploy model as a REST API or web application
